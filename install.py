@@ -77,7 +77,7 @@ if __name__ == '__main__':
     os.chdir(save_dir)
 
     # Step 3: Checkout the specific branch
-    checkout_branch('bake-2.0')
+    # checkout_branch('bake-2.0')
 
     # Step 4: Install dependencies from requirements.txt
     requirements_path = os.path.join(save_dir, 'requirements.txt')
